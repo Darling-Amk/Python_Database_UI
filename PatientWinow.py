@@ -20,10 +20,10 @@ class PatientWindow():
 
 
     def Show(self):
-        # self.root = tk.Toplevel()
-        # self.root.focus_set()
-        # self.root.grab_set()
-        self.root = tk.Tk()
+        self.root = tk.Toplevel()
+        self.root.focus_set()
+        self.root.grab_set()
+        #self.root = tk.Tk()
         self.root.resizable(width=False, height=False)
         self.root.geometry("1050x680")
         self.root.title('Пациенты')
